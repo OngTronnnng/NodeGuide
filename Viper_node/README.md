@@ -1,38 +1,48 @@
 **Viper Private Testnet Validator Node Phase 2**
 
-![Uploading image.png…]()
+![image](https://github.com/Mekong-labs/NodeGuide/assets/159516635/5ff1fa47-d84c-4839-88ec-dc8611b70eb7)
 
 
 The documentation will guide you through the installation of a new DYM node. It covers both scenarios: setting up a DYM node alongside an existing Viper node and setting up a separate VPS for the DYM node
-```
-https://discord.gg/dymension
-```
+
 
 **Join DYM discord**
-<https://discord.gg/dymension>
+```
+https://discord.gg/dymension
 
-Hardware for DYM node
+```
 
+**Hardware for DYM node**
+
+```
 Dual Core
 At least 100GB of SSD disk storage
 At least 16GB of memory (RAM)
 At least 100mbps network bandwidth
-
+```
 or you can run together with Viper node
 
-Install Roller
+**Install Roller**
+```
 curl -L https://dymensionxyz.github.io/roller/install.sh | bash
-Verify Roller version
+```
+**Verify Roller version**
+```
 roller version
-You should see something like this
-
+```
+**You should see something like this**
+```
 Roller version <latest-version>
 Build time: <build-time>
 Git commit: <git-commit>
-Initialization
+```
+**Initialization**
+```
 roller config init --interactive
-Select your network
-alt text
+```
+**Select your network**
+![Uploading image.png…]()
+
 
 Select your execution environment
 alt text
