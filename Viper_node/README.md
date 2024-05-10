@@ -4,8 +4,9 @@
 
 
 The documentation will guide you through the installation of a new DYM node. It covers both scenarios: setting up a DYM node alongside an existing Viper node and setting up a separate VPS for the DYM node
+```
 https://discord.gg/dymension
-
+```
 
 **Join DYM discord**
 <https://discord.gg/dymension>
