@@ -1,6 +1,7 @@
 **Viper Private Testnet Validator Node Phase 2**
 
-![image](https://github.com/Mekong-labs/NodeGuide/assets/159516635/5ff1fa47-d84c-4839-88ec-dc8611b70eb7)
+![Uploading image.png…]()
+
 
 
 The documentation will guide you through the installation of a new DYM node. It covers both scenarios: setting up a DYM node alongside an existing Viper node and setting up a separate VPS for the DYM node
