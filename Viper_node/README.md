@@ -41,53 +41,48 @@ Git commit: <git-commit>
 roller config init --interactive
 ```
 **Select your network**
-![Uploading image.png…]()
-
-
-Select your execution environment
-alt text
-
-Enter your rollapp ID
-alt text
-
-Specify your RollAPP denom
-alt text
-
-Set your genesis token supply
-alt text
-
-Choose your data layer
-alt text
-
-After finishing, you will get the infor
-
+```
+Select your network: Froopyland
+Select your execution environment: EVM
+Specify your RollApp denom: Name options (You should choose a personal name to avoid duplicates)
+Set the genesis token supply: Enter for default
+Choose your data layer: Celestia
+```
+**After finishing, you will get the infor**
+```
 🔑 Addresses:
 
 Sequencer <network> | Address used to publish state updates to the Dymension Hub
 Relayer   <network> | Address that handles the relaying of IBC packets
 DA        <network> | Address used to publish data onchain to the DA network
-DYM Funding
+```
+**DYM Funding**
 In Dymension's discord, please fund the Dymension Hub addresses in the froopyland-faucet channel with the following command as an example:
-
+```
 $request <dym-address>
 $request <dym-address>
-Celestia funding
+```
+**Celestia funding**
 Go to the room Froopyland-support and asking for token.
 
 Or
 
 Faucet here:
-
+``
 https://faucet.celestia-arabica-11.com
+``
 Or
-
+``
 Go to the Celestia Discord and faucet
-
-Register DAPP
+``
+**Register DAPP**
+``
 roller tx register
+``
 it should return
-
+``
 Rollapp '<rollapp-id>' has been successfully registered on the hub.
+``
 Running node
 roller run
 For someone run the node in seperate vps please skip task below and go ahead to #checking DYM node running task
