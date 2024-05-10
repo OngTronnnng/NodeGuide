@@ -8,7 +8,7 @@ https://discord.gg/dymension
 
 
 **Join DYM discord**
-'''https://discord.gg/dymension'''
+```https://discord.gg/dymension```
 
 Hardware for DYM node
 
