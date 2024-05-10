@@ -7,8 +7,8 @@ The documentation will guide you through the installation of a new DYM node. It 
 https://discord.gg/dymension
 
 
-#Join DYM discord
-""https://discord.gg/dymension""
+**Join DYM discord**
+'''https://discord.gg/dymension'''
 
 Hardware for DYM node
 
