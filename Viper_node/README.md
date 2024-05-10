@@ -1,10 +1,12 @@
 Viper Private Testnet Validator Node Phase 2
-alt text
+![Uploading image.png…]()
+
+
 
 The documentation will guide you through the installation of a new DYM node. It covers both scenarios: setting up a DYM node alongside an existing Viper node and setting up a separate VPS for the DYM node
 
 Preparation
-Join DYM discord
+#Join DYM discord
 https://discord.gg/dymension
 
 Hardware for DYM node
