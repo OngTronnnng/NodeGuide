@@ -1,4 +1,4 @@
-Viper Private Testnet Validator Node Phase 2
+**Viper Private Testnet Validator Node Phase 2**
 ![Uploading image.png…]()
 
 
