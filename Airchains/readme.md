@@ -6,15 +6,13 @@
 
 
 
- * [Topluluk kanalımız](https://t.me/corenodechat)<br>
- * [Topluluk Twitter](https://twitter.com/corenodeHQ)<br>
+ * [ Twitter]([(https://twitter.com/mekonglabs)Q)<br>
  * [Airchain Website](https://www.airchains.io)<br>
  * [Blockchain Explorer](https://testnet.airchains.io)<br>
  * [Discord](https://discord.gg/jsy8ZqrD)<br>
  * [Twitter](https://twitter.com/airchains_io)<br>
 
-## 💻 Sistem Gereksinimleri
-| Bileşenler | Minimum Gereksinimler | 
+## Recommended Hardware Requirements
 | ------------ | ------------ |
 | CPU |	4|
 | RAM	| 8+ GB |
