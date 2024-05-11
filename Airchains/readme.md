@@ -4,9 +4,6 @@
 ![image](https://github.com/molla202/Airchain/assets/91562185/64b9e7f3-4739-4774-b421-635e224dcd4f)
 
 
-
-
- * [ Twitter]([(https://twitter.com/mekonglabs)Q)<br>
  * [Airchain Website](https://www.airchains.io)<br>
  * [Blockchain Explorer](https://testnet.airchains.io)<br>
  * [Discord](https://discord.gg/jsy8ZqrD)<br>
