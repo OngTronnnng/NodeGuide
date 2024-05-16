@@ -40,14 +40,13 @@ initiad init $MONIKER
 sed -i -e "s|^node *=.*|node = \"tcp://localhost:${INITIA_PORT}657\"|" $HOME/.initia/config/client.toml
 ```
 # download genesis and addrbook
-wget -O $HOME/.initia/config/genesis.json https://testnet-files.itrocket.net/initia/genesis.json
-wget -O $HOME/.initia/config/addrbook.json https://testnet-files.itrocket.net/initia/addrbook.json
+wget https://initia.s3.ap-southeast-1.amazonaws.com/initiation-1/genesis.json -O $HOME/.initia/config/genesis.json
 
 # set seeds and peers
 ```
-SEEDS="cd69bcb00a6ecc1ba2b4a3465de4d4dd3e0a3db1@initia-testnet-seed.itrocket.net:51656"
-PEERS="aee7083ab11910ba3f1b8126d1b3728f13f54943@initia-testnet-peer.itrocket.net:11656,16a7709332221a8b1c1edeb6533076fd7a445113@5.252.55.156:26656,07632ab562028c3394ee8e78823069bfc8de7b4c@37.27.52.25:19656,e8dfba2642dd70e74476dcbcfaf7b249ffcdbfc5@195.26.255.211:15056,1f6633bc18eb06b6c0cab97d72c585a6d7a207bc@65.109.59.22:25756,767fdcfdb0998209834b929c59a2b57d474cc496@207.148.114.112:26656,093e1b89a498b6a8760ad2188fbda30a05e4f300@35.240.207.217:26656,5f934bd7a9d60919ee67968d72405573b7b14ed0@65.21.202.124:29656,d59ced58011e8c56ad89448094b3270863aa962f@62.210.173.57:26656"
-sed -i -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.initia/config/config.toml
+sed -i -e "s|^seeds *=.*|seeds = \"3f472746f46493309650e5a033076689996c8881@initia-testnet.rpc.kjnodes.com:17959\"|" $HOME/.initia/config/config.toml
+PEERS="aee7083ab11910ba3f1b8126d1b3728f13f54943@initia-testnet-peer.itrocket.net:11656,2bfad62fa5ba7cc91af4e19ee8d1356997a01079@84.247.166.24:51656,e6a35b95ec73e511ef352085cb300e257536e075@37.252.186.213:26656,07632ab562028c3394ee8e78823069bfc8de7b4c@37.27.52.25:19656,b4778656f255169b8b1d660b6af3a0df68d68e65@176.57.189.36:15656,54d2302155d1bd2a95354ea1d54e196db70a5361@84.46.251.215:656,767fdcfdb0998209834b929c59a2b57d474cc496@207.148.114.112:26656,093e1b89a498b6a8760ad2188fbda30a05e4f300@35.240.207.217:26656,5f934bd7a9d60919ee67968d72405573b7b14ed0@65.21.202.124:29656,e15f6e83d7e35c12f99476674137f3edd1865654@161.97.143.182:16656"
+sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.initia/config/config.toml
 ```
 # set custom ports in app.toml
 ```
