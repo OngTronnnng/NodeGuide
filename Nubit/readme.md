@@ -1,8 +1,10 @@
-Recommended Hardware Requirements
-SPEC	Recommend
+### Recommended Hardware Requirements
+```
 CPU	1 Cores
 RAM	500 Mb Ram
 Storage	40 GB SSD
+```
+
 Choose Tmux or Systemd.
 Run with Tmux
 sudo apt install tmux
