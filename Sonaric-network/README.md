@@ -92,7 +92,7 @@ sonaric identity-export -o your-node-name.identity
 ![Screenshot_145](https://github.com/user-attachments/assets/7dc37b34-f790-40b2-a109-b34995bf4557)
 
 ## 7. Receive 100 Points
-To receive instant **100** points, you can use this referral code in GUI dashboard: `nwfq5ty`
+To receive instant **100** points, you can use this referral code in GUI dashboard: `l53lh2y`
 
 ![Screenshot_146](https://github.com/user-attachments/assets/ed49be70-d765-49dd-81b2-b097aef2354f)
 
